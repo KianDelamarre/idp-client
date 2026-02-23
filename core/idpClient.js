@@ -48,7 +48,6 @@ export function createIdpClient({ baseUrl, publicKey }) {
       } catch (err) {
         throw new Error('Invalid token');
       }
-    }
-
+    }   
   };
 }
