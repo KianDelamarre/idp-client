@@ -1,7 +1,7 @@
 {
-  "name": "idp-client",
+  "name": "@kiansd/idp-client",
   "version": "1.0.0",
-  "description": "",
+  "description": "idp client for idp server i made for my projects",
   "type": "module",
   "main": "index.js",
   "exports": {
@@ -15,7 +15,7 @@
     "url": "git+https://github.com/KianDelamarre/idp-client.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Kian Delamarre",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/KianDelamarre/idp-client/issues"
