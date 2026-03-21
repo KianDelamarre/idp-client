@@ -35,6 +35,7 @@ export function createLogoutController({ client, cookieOptions }) {
   return async function logoutController(req, res) {
     try {
       const refreshToken = req.cookies.refreshToken;
+      console.log("idp client logout controller has refresh token", refreshToken)
       if (refreshToken) {
         await client.deleteRefreshToken(refreshToken);
       }
