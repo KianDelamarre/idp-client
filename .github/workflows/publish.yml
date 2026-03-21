@@ -14,7 +14,7 @@ jobs:
       # Use Node.js
       - uses: actions/setup-node@v3
         with:
-          node-version: '20'  # or whichever version you use
+          node-version: '24'  # or whichever version you use
           registry-url: 'https://registry.npmjs.org'
 
       # Authenticate with npm using the secret
